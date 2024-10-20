@@ -1,5 +1,5 @@
 /* DONT DELETE THIS */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 /* WRITE YOUR CODE BELOW */
 
 /* html{
@@ -8,10 +8,13 @@
 } */
 
 body {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   min-height: 120vh;
   /* padding-bottom: 10px; */
   max-width: 350px;
+
+  /* /* min-height: 720px; */
+  /* min-width: 200px;  */
 }
 
 h2 {
@@ -20,11 +23,10 @@ h2 {
   font-weight: 600;
 }
 
-
 /* ======header====== */
 
-.header{
-  background-color: #FAC62E;
+.header {
+  background-color: #fac62e;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,19 +51,18 @@ h2 {
   color: rgba(0, 0, 0, 0.3);
   transform: translateY(-50%);
   background-color: white;
-  
 }
 
 .search-box input {
-    margin-left: 20px;
-    border: 0px;
-    width: 85%;
-    height: 85%;
+  margin-left: 20px;
+  border: 0px;
+  width: 85%;
+  height: 85%;
 }
 
 .search-box i {
-    margin-right: 20px;
-    cursor: pointer;
+  margin-right: 20px;
+  cursor: pointer;
 }
 
 /* ======main====== */
@@ -76,12 +77,11 @@ h2 {
 
 /* ------book of the day------ */
 
-
 .book-info {
-    display: flex;
-    align-items: center;
-    height: 160px;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  height: 160px;
+  width: 100%;
 }
 
 .book-of-the-day-cover {
@@ -92,113 +92,104 @@ h2 {
 }
 
 .book-info__right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    flex-grow: 0.1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  flex-grow: 0.1;
 }
 
-.book-info__right-top{
-    margin-bottom: 10px;
-    /* padding-bottom: 20px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 10px;
+.book-info__right-top {
+  margin-bottom: 10px;
+  /* padding-bottom: 20px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
 }
 
-.book-info__right-top h3{
-    font-size: 20px;
+.book-info__right-top h3 {
+  font-size: 20px;
 }
 
-.book-info__right-top :nth-child(2){
-    color: rgba(0, 0, 0, 0.3);
-    font-size: 15px;
+.book-info__right-top :nth-child(2) {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 15px;
 }
 
-.book-info__right-top .rating{
-    font-size: 13px;
+.book-info__right-top .rating {
+  font-size: 13px;
 }
 
-
-.book-info__right-middle{
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 15px;
+.book-info__right-middle {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15px;
 }
 
 .book-info__right-middle .btn {
-    border: none;
-    height: 30px;
-    width: 100px;
-    border-radius: 10px;
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
 }
 
-.book-info__right-bottom{
-    display: flex;
-    justify-content: space-between;
+.book-info__right-bottom {
+  display: flex;
+  justify-content: space-between;
 }
 
-.book-info__right-bottom .icon{
-    height:35px;
-    width: 35px;
-    border-radius: 50%;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:  #FAC62E;
+.book-info__right-bottom .icon {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fac62e;
 }
-
-
 
 .book-info__right-bottom .btn {
-    height:35px;
-    width: 150px;
-    background-color: black;
-    color: white;
-    border-radius: 10px;
-    margin-right: 20px;
+  height: 35px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin-right: 20px;
 }
-
-
-
-
-
 
 /* ------top adventures------ */
 .adventure-book-lists {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .adventure-book {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
 }
 
 .adventure-book-cover {
-    width: 100px;
-    height: 120px;
-    border-radius: 10px;
-    margin-right: 10px;
+  width: 100px;
+  height: 120px;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
 .adventure-book .rating {
-    margin-top: 15px;
-    font-size: 8px;
+  margin-top: 15px;
+  font-size: 8px;
 }
-
 
 /* ------popular authors------ */
 .author-info {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .author-img {
@@ -209,20 +200,20 @@ h2 {
 }
 
 .author-details {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 210px;
 }
 
 .author-name {
-    font-size: 19px;
-    font-weight: 500;
-    margin-bottom: 25px;
-  }
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
 
 .author-biography {
-    font-size: 16px;
-    color: gray;
+  font-size: 16px;
+  color: gray;
 }

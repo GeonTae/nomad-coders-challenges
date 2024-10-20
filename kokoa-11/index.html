@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Kokoa Challenge</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <div class="screen first-screen">
+    <!-- ----------------------------------------  -->
+    <header class="header first-screen-header">
+      <button><i class="fa-solid fa-arrow-left fa-lg"></i></button>
+      <button><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
+    </header>
+    <!-- ----------------------------------------  -->
+    <div class="artist-profile">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Tyler_the_Creator_%2852163761341%29_%28cropped%29.jpg/220px-Tyler_the_Creator_%2852163761341%29_%28cropped%29.jpg"
+        class="artist-img" />
+      <span>Tyler, The Creator</span>
+      <span>Rap, Hip-Hop</span>
+    </div>
+    <!-- ----------------------------------------  -->
+    <div class="control-button">
+      <button class="button-shuffle">Shuffle</button>
+      <button class="button-heart">
+        <i class="fa-regular fa-heart fa-lg"></i>
+        <span>212,971</span>
+      </button>
+    </div>
+    <!-- ----------------------------------------  -->
+    <div class="songs-list">
+      <div class="song">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Tyler%2C_the_Creator_-_Earfquake_%28Channel_Tres_remix%29.jpg/220px-Tyler%2C_the_Creator_-_Earfquake_%28Channel_Tres_remix%29.jpg"
+          class="song-img song-earfquake" />
+        <div class="song-info">
+          <span class="artist">Tyler, the Creator</span>
+          <span class="title">EARFQUAKE</span>
+        </div>
+        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+      </div>
+
+      <div class="song selected-song">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Tyler%2C_the_Creator_-_Flower_Boy.png/220px-Tyler%2C_the_Creator_-_Flower_Boy.png"
+          class="song-img song-november" />
+        <i class="fa-solid fa-chart-simple fa-lg"></i>
+        <div class="song-info">
+          <span class="artist">Tyler, the Creator</span>
+          <span class="title">NOVEMBER</span>
+        </div>
+        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+      </div>
+
+      <div class="song">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/WhoDatBoy911.jpg/220px-WhoDatBoy911.jpg"
+          class="song-img song-911" />
+        <div class="song-info">
+          <span class="artist">Tyler, the Creator</span>
+          <span class="title">911</span>
+        </div>
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+      </div>
+
+      <div class="song">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Wolf_Cover2.jpg/220px-Wolf_Cover2.jpg"
+          class="song-img song-wolf" />
+        <div class="song-info">
+          <span class="artist">Tyler, the Creator</span>
+          <span class="title">WOLF</span>
+        </div>
+        <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+      </div>
+    </div>
+    <!-- ----------------------------------------  -->
+    <div class="current-play__song-bar">
+      <div class="current-play__song-info">
+        <span>Tyler, the Creator</span>
+        <span>NOVEMBER</span>
+      </div class="current-play__song-icon">
+      <div class="current-play__song-control current-play__song-icon">
+        <i class="fa-solid fa-backward-step fa-lg"></i>
+        <i class="fa-solid fa-pause fa-lg"></i>
+        <!-- <i class="fa-solid fa-play"></i> -->
+        <i class="fa-solid fa-forward-step fa-lg"></i>
+      </div>
+    </div>
+  </div>
+  <!-- ----------------------------------------------------------------------------------  -->
+  <!-- ----------------------------------------------------------------------------------  -->
+  <div class="screen second-screen">
+    <header class="header second-screen-header">
+      <button><i class="fa-solid fa-arrow-left fa-lg"></i></button>
+      <button><i class="fa-solid fa-ellipsis-vertical fa-lg"></i></button>
+    </header>
+    <!-- ----------------------------------------  -->
+    <div class="playing-song__cover">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Tyler%2C_the_Creator_-_Flower_Boy.png/220px-Tyler%2C_the_Creator_-_Flower_Boy.png"
+        class="playing-song__cover-img">
+      <div class="playing-song__info">
+        <p class="playing-song__title">November</p>
+        <p class="playing-song__artist-name">Tyler, The Creator</p>
+      </div>
+    </div>
+    <!-- ----------------------------------------  -->
+    <div class="playing-song__progress-bar">
+      <div class="playing-song__progress-bar-number">
+        <span>1:56</span>
+        <span>2:21</span>
+      </div>
+      <input type="range" value="60">
+    </div>
+    <!-- ----------------------------------------  -->
+    <div class="playing-song-control-bar">
+      <i class="fa-solid fa-repeat fa-lg"></i>
+      <i class="fa-solid fa-backward-step fa-lg"></i>
+      <i class="fa-solid fa-play fa-2xl"></i>
+      <i class="fa-solid fa-forward-step fa-lg"></i>
+      <i class="fa-solid fa-random fa-lg"></i>
+    </div>
+
+
+  </div>
+
+  <!-- ❌ DON'T DELETE THIS OR WORRY ABOUT THIS 👇🏻 ❌ -->
+  <!-- <script src="https://kit.fontawesome.com/b5ac015c11.js" crossorigin="anonymous"></script> -->
+  <script src="https://kit.fontawesome.com/18561b70e2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
